@@ -1,0 +1,187 @@
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local OldVal = Player.leaderstats.Raised.Value
+local SpinMeActive = false
+local Queue = {}
+
+--Giant
+function rm()
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+    for i,v in pairs(Character:GetDescendants()) do
+        if v:IsA("BasePart") then
+            if v.Name == "Handle" or v.Name == "Head" then
+                if Character.Head:FindFirstChild("OriginalSize") then
+                    Character.Head.OriginalSize:Destroy()
+                end
+            else
+                for i,cav in pairs(v:GetDescendants()) do
+                    if cav:IsA("Attachment") then
+                        if cav:FindFirstChild("OriginalPosition") then
+                            cav.OriginalPosition:Destroy()  
+                        end
+                    end
+                end
+                v:FindFirstChild("OriginalSize"):Destroy()
+                if v:FindFirstChild("AvatarPartScaleType") then
+                    v:FindFirstChild("AvatarPartScaleType"):Destroy()
+                end
+            end
+        end
+    end
+end
+
+function Giant()
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	local Humanoid = Character:FindFirstChild("Humanoid")
+	if not Humanoid:FindFirstChild("BodyProportionScale") then
+		KillMe()
+		wait(5)
+		Character = Player.Character or Player.CharacterAdded:Wait()
+		Humanoid = Character:FindFirstChild("Humanoid")
+	end
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+	wait(1)
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+	wait(1)
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+	wait(1)
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+	wait(1)
+	rm()
+	wait()
+	wait(0.5)
+	Humanoid:FindFirstChild("HeadScale"):Destroy()
+	wait(1)
+end
+
+--SkyRocket
+function SkyRocket()
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	local HRP = Character:WaitForChild("HumanoidRootPart")
+	HRP.Velocity = Vector3.new(500,500,500)
+end
+
+
+--Health
+function KillMe()
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	Character:WaitForChild("Humanoid").Health = 0
+end
+
+
+--Remove Arms and legs
+
+function RemoveLimbs()
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	if not Character:FindFirstChild("LeftLowerArm") then
+		KillMe()
+		wait(5)
+		Character = Player.Character or Player.CharacterAdded:Wait()
+	end
+    Character.LeftLowerArm:Destroy()
+    wait(.2)
+    Character.LeftUpperArm:Destroy()
+    wait(.2)
+    Character.LeftLowerLeg:Destroy()
+    wait(.2)
+    Character.LeftUpperLeg:Destroy()
+    wait(.2)
+    Character.LeftHand:Destroy()
+    wait(.2)
+    Character.LeftFoot:Destroy()
+    wait(.2)
+    Character.RightLowerArm:Destroy()
+    wait(.2)
+    Character.RightUpperArm:Destroy()
+    wait(.2)
+    Character.RightLowerLeg:Destroy()
+    wait(.2)
+    Character.RightUpperLeg:Destroy()
+    wait(.2)
+    Character.RightHand:Destroy()
+    wait(.2)
+    Character.RightFoot:Destroy()
+end
+
+
+-- Spin Me
+function SpinMe()
+    p = game.Players.LocalPlayer.Character.HumanoidRootPart
+	SpinMeActive = true
+    while SpinMeActive do
+        wait()
+        p.CFrame = p.CFrame * CFrame.Angles(0,1,0)
+    end
+end
+
+--Command Handler
+Player.leaderstats.Raised.Changed:connect(function(a)
+	if a ~= OldVal then
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Thank you for donating " .. (a - OldVal) .. "![BOT]","All")
+		if (a - OldVal) >= 5 and (a - OldVal) < 10 then
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Because you donated " .. (a - OldVal) .. " you have added the command KillMe to the queue!","All")
+			table.insert(Queue, {"KillMe", KillMe})
+		elseif (a - OldVal) >= 10 and (a - OldVal) < 15 then
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Because you donated " .. (a - OldVal) .. " you have added the command RemoveLimbs to the queue!","All")
+			table.insert(Queue, {"RemoveLimbs", RemoveLimbs})
+		elseif (a - OldVal) >= 15 and (a - OldVal) < 20 then
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Because you donated " .. (a - OldVal) .. " you have added the command SkyRocket to the queue!","All")
+			table.insert(Queue, {"SkyRocket", SkyRocket})
+		elseif (a - OldVal) >= 20 and (a - OldVal) < 50 then
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Because you donated " .. (a - OldVal) .. " you have added the command Spin to the queue!","All")
+			table.insert(Queue, {"Spin", function() spawn(SpinMe) wait(30) SpinMeActive = false end})
+		elseif (a - OldVal) >= 50 and (a - OldVal) < 125 then
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Because you donated " .. (a - OldVal) .. " you have added the command KillMe10 to the queue!","All")
+			table.insert(Queue, {"KillMe10", function()
+				for i = 1, 10 do 
+					KillMe() 
+					wait(5)
+				end 
+			end})
+		elseif (a - OldVal) >= 175 then
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Because you donated " .. (a - OldVal) .. " you have added the command Giant to the queue!","All")
+			table.insert(Queue, {"Giant", Giant})
+		else
+			wait(1)
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("5 Robux = KillMe 10 Robux = RemoveMyLimbs [BOT]","All")
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("50 Robux = KillMeTen 175+ Robux = Giant [BOT]","All")
+		end
+		OldVal = a
+	end
+end)
+
+print("Executed")
+
+--Automated message
+spawn(function()
+	while wait(60) do
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This is an Automated Message by BadKarma AI - Try Donating! [BOT]","All")
+		wait(3)
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("5 Robux = KillMe 10 Robux = RemoveMyLimbs 15 Robux = SkyRocket [BOT]","All")
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("50 Robux = KillMeTen 175+ Robux = Giant [BOT]","All")
+		-- 20 Robux = SpinMe 50 Robux = KillMe10 175+ Robux = Giant 
+	end
+end)
+
+--Queue Execution
+while wait(5) do
+	if #Queue ~= 0 then
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Running command " .. Queue[1][1] .. "!","All")
+		spawn(Queue[1][2])
+		table.remove(Queue,1)
+	end
+end

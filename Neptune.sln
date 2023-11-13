@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neptune", "Neptune\Neptune.csproj", "{9589AC16-690D-4555-AFF5-561E4A7A34B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9589AC16-690D-4555-AFF5-561E4A7A34B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9589AC16-690D-4555-AFF5-561E4A7A34B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9589AC16-690D-4555-AFF5-561E4A7A34B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9589AC16-690D-4555-AFF5-561E4A7A34B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBF50404-4B13-49B3-89DB-EC416B70DBAC}
+	EndGlobalSection
+EndGlobal

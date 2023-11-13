@@ -1,0 +1,80 @@
+C:\Users\Owner\source\repos\Neptune\Neptune\bin\Debug\Neptune.exe.config
+C:\Users\Owner\source\repos\Neptune\Neptune\bin\Debug\Neptune.exe
+C:\Users\Owner\source\repos\Neptune\Neptune\bin\Debug\Neptune.pdb
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.csproj.AssemblyReference.cache
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\App.g.cs
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.cache
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.lref
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\MainWindow.baml
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.g.resources
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.Properties.Resources.resources
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.exe
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Neptune.pdb
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Keysystem.g.cs
+C:\Users\Owner\source\repos\Neptune\Neptune\obj\Debug\Keysystem.baml
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\bin\Debug\Neptune.exe.config
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\bin\Debug\Neptune.exe
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\bin\Debug\Neptune.pdb
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.AssemblyReference.cache
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.SuggestedBindingRedirects.cache
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Keysystem.g.cs
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\MainWindow.g.cs
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\App.g.cs
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.cache
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.lref
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Keysystem.baml
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\MainWindow.baml
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.g.resources
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.Properties.Resources.resources
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.GenerateResource.cache
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.CoreCompileInputs.cache
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.exe
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.pdb
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\robyu\OneDrive\Área de Trabalho\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.CopyComplete
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\bin\Debug\Neptune.exe.config
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\bin\Debug\Neptune.exe
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\bin\Debug\Neptune.pdb
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\bin\Debug\ICSharpCode.AvalonEdit.dll
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\bin\Debug\ICSharpCode.AvalonEdit.xml
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.AssemblyReference.cache
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Keysystem.g.cs
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\MainWindow.g.cs
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\App.g.cs
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.cache
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.lref
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Keysystem.baml
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\MainWindow.baml
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.g.resources
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.Properties.Resources.resources
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.GenerateResource.cache
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.CoreCompileInputs.cache
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.csproj.CopyComplete
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.exe
+C:\Users\Thela\Desktop\Drone\Neptune\Neptune\obj\Debug\Neptune.pdb
+D:\VCX\Neptune\Neptune\bin\Debug\Neptune.exe.config
+D:\VCX\Neptune\Neptune\bin\Debug\Neptune.exe
+D:\VCX\Neptune\Neptune\bin\Debug\Neptune.pdb
+D:\VCX\Neptune\Neptune\bin\Debug\ICSharpCode.AvalonEdit.dll
+D:\VCX\Neptune\Neptune\bin\Debug\ICSharpCode.AvalonEdit.xml
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.csproj.AssemblyReference.cache
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.csproj.SuggestedBindingRedirects.cache
+D:\VCX\Neptune\Neptune\obj\Debug\Keysystem.g.cs
+D:\VCX\Neptune\Neptune\obj\Debug\MainWindow.g.cs
+D:\VCX\Neptune\Neptune\obj\Debug\App.g.cs
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.cache
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune_MarkupCompile.lref
+D:\VCX\Neptune\Neptune\obj\Debug\Keysystem.baml
+D:\VCX\Neptune\Neptune\obj\Debug\MainWindow.baml
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.g.resources
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.Properties.Resources.resources
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.csproj.GenerateResource.cache
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.csproj.CoreCompileInputs.cache
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.csproj.CopyComplete
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.exe
+D:\VCX\Neptune\Neptune\obj\Debug\Neptune.pdb
